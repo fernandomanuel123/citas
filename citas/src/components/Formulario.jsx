@@ -54,6 +54,7 @@ const Formulario = ({setPacientes,pacientes,paciente,setPaciente}) => {
             
             setPacientes(pacientesActualizados)
             setPaciente({})
+            alert("Se ha actualizado correctamente")
         }else {
             objetoPaciente.id = generarId()
             setPacientes([...pacientes,objetoPaciente])
